@@ -11,12 +11,12 @@ app.use("/dist", express.static(path.resolve(__dirname, "./dist")));
 
 require("./build/dev-server")(app);
 
-app.get('*', (req, res) => {
+app.get("*", (req, res) => {
   res.write(indexHTML);
   res.end();
 });
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`server started at http://localhost:${port}`);
 });
