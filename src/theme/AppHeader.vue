@@ -4,7 +4,7 @@
       <router-link to="/" exact>
         <img src="http://bit.ly/vue-img" alt="Vue SPA" />
       </router-link>
-      <router-link class="nav-item is-tab" to='/' exact>Home</router-link>
+      <router-link class="nav-item is-tab" to='/category/front-end' exact>Home</router-link>
       <router-link class="nav-item is-tab" to='/login'>Login</router-link>
     </div>
   </nav>
